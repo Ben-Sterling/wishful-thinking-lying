@@ -10,7 +10,7 @@ The pipeline is primarily written in **R** and **Python**, with task orchestrati
 
 ## Directory Structure
 
-\`\`\`
+```text
 Chemicals-main/
 ├── data/derived/              # Output directory for preprocessed data and model predictions
 ├── scripts/
@@ -20,7 +20,7 @@ Chemicals-main/
 │       ├── model/             # R scripts for fitting and evaluating models
 │       └── participants/      # R scripts for participant-level data analysis
 ├── Makefile                   # Main task orchestrator for running the pipeline
-\`\`\`
+```
 
 ## Pipeline Steps
 
