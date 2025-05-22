@@ -1,4 +1,4 @@
-# Chemicals Project: Modeling Wishful Thinking in Lying
+# Modeling Wishful Thinking in Lying
 
 This repository contains the full experimental and analytical pipeline supporting the study **"People Use Theory of Mind to Craft
 Lies Exploiting Audience Desires"**. The project investigates how individuals strategically tailor lies based on what they believe others want to hear, incorporating a Bayesian cognitive model that accounts for wishful thinking in inference and deception.
