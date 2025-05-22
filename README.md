@@ -1,6 +1,7 @@
 # Chemicals Project: Modeling Wishful Thinking in Lying
 
-This repository contains the full experimental and analytical pipeline supporting the study **"People Use Theory of Mind to Craft Lies Exploiting Audience Desires"** (Berke, Sterling, Chandra & Jara-Ettinger 2025, Cognitive Science Society). The project investigates how individuals strategically tailor lies based on what they believe others want to hear, incorporating a Bayesian cognitive model that accounts for wishful thinking in inference and deception.
+This repository contains the full experimental and analytical pipeline supporting the study **"People Use Theory of Mind to Craft
+Lies Exploiting Audience Desires"**. The project investigates how individuals strategically tailor lies based on what they believe others want to hear, incorporating a Bayesian cognitive model that accounts for wishful thinking in inference and deception.
 
 ## Project Overview
 
@@ -42,7 +43,7 @@ The following stages are available via the `Makefile`. Each can be run independe
 
 Running \`make all\` or \`make run_models\` is **not recommended** on local machines due to the computational load of the brute force model sweep and downstream inference. Instead, step through the pipeline using the individual \`make\` targets listed above to debug and validate components incrementally.
 
-## 🔧 Dependencies
+## Dependencies
 
 - **R** (with \`renv\` package manager)
 - **Python 3** (tested with 3.9+)
