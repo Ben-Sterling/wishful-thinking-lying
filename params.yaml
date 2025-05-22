@@ -1,0 +1,30 @@
+brute_force:
+  n: 5
+  z: 0.5
+  num_prefs: 5
+  output_file: "data/raw/model_predictions/output_ev.csv"
+
+run_model_many_zs:
+  n: 5
+  num_prefs: 5
+  z_range:
+    start: -4
+    stop: 4.1
+    step: 0.1
+  output_path: "data/raw/model_predictions/data_all_zs.csv"
+
+sampling:
+  bins: 5
+  n_per_bin: 2
+  tau: 0.1
+
+z_sampling:
+  ev_combined_file: "data/raw/model_predictions/data_all_zs_-4_4.csv"
+  z4_file: "data/raw/model_predictions/data_z4.csv"
+  trials_used_file: "data/derived/model_predictions_trials_used.csv"
+  output_file: "data/derived/model_predictions_trials_used_4Zs.csv"
+
+preprocessing:
+  input_file: "data/raw/participants/Exp1_final.csv"
+  output_file: "data/derived/preprocessed_participant_data.csv"
+

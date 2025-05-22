@@ -1,0 +1,9 @@
+data_all_zs.csv
+.venv/
+.RData
+.Rhistory
+.DS_Store
+*.pyc
+__pycache__/
+.Rproj.user/
+renv/library/
